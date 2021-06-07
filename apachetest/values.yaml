@@ -357,7 +357,7 @@ sidecars: {}
 service:
   ## Service type
   ##
-  type: LoadBalancer
+  type: ClusterIP
   ## HTTP Port
   ##
   port: 8088
