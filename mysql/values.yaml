@@ -345,13 +345,15 @@ primary:
       - ReadWriteOnce
     ## Persistent Volume size
     ##
-    size: 8Gi
+    size: 1Gi
     ## selector can be used to match an existing PersistentVolume
     ## selector:
     ##   matchLabels:
     ##     app: my-app
     ##
-    selector: {}
+    selector:
+      matchLabels:
+        app: mysql-pv
 
   ## Extra volumes to add to the MySQL Primary pod(s)
   ##
