@@ -360,7 +360,7 @@ serviceAccount:
 service:
   ## Service type
   ##
-  type: LoadBalancer
+  type: ClusterIP
 
   ## HTTP Port
   ##
@@ -368,7 +368,7 @@ service:
 
   ## HTTPS Port
   ##
-  httpsPort: 443
+  httpsPort: 4434
 
   ## Specify the nodePort(s) value(s) for the LoadBalancer and NodePort service types.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
