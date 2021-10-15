@@ -70,7 +70,7 @@ image:
   pullSecrets: []
   ## Enable debug mode
   ##
-  debug: false
+  debug: true
 
 ## @section WordPress Configuration parameters
 ## WordPress settings based on environment variables
